@@ -1,6 +1,18 @@
 <template>
   <div>
+    <nav class= "breadcrumb">
+      <ul>
+        <li> <nuxt-link to="/"><i class="fas fa-home"></i> 홈으로 </nuxt-link> </li>
+      </ul>
+    </nav>
     <nuxt/>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        2020-2021 임현진
+        
+      </div>
+    </footer>
   </div>
 </template>
 
