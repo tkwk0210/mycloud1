@@ -11,28 +11,36 @@
           </p>
       </div>
     </section>
+
     <div class="columns">
       <article class="message">
         
         <div class="message-header">
           <p> 체스 규칙 </p>
         </div>
+
         <div class="message-body">
           <figure class="image is-128x128">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Opening_chess_position_from_black_side.jpg/200px-Opening_chess_position_from_black_side.jpg" 
             alt="">
           </figure>
+          
           <p>
             경기준비 <br>
             체스는 가로 8칸(랭크는 가로 1부터 8), 세로 8줄(파일은 세로 a 부터 h)로 된 사각형 보드로 플레이한다. 64칸의 색상은 밝은 칸(light squares)과 어두운 칸(dark squares)으로 나뉜다. 보드는 각 플레이어의 왼쪽에서 가까운 랭크의 어두운 칸(dark squares)이 오도록 해야하고 퀸은 플레이어의 색상에 맞게 위치한다. 피스는 화이트와 블랙으로 나뉜다. 플레이어는 화이트와 블랙으로 각각 16개의 피스를 갖고 게임을 시작한다. 1개의 킹, 퀸 2개의 룩, 비숍과 나이트, 8개의 폰으로 구성되어있다.
           </p>
         </div>
+
+      </article>
+      <article class="message">
+
         <div class="message-header">
           <p> 행마법 </p>
         </div>
+
         <div class="message-body">
           <p>
-            <br>항상 화이트가 먼저 이동한다. 플레이어는 번갈아가면서 1개의 피스를 이동해야된다. 피스를 잡으면 그 피스를 움직여야 한다.(캐슬링은 제외) 피스를 잡으면 보드 그 피스를 움직인다.앙파상을 제외하고 상대의 피스의 칸으로 이동해서 상대의 피스를 잡는다. 킹이 움직일 수 없는 경우 게임은 끝이 난다. 그것은 체크메이트 또는 스테일메이트 중 하나다.
+            <br> 항상 화이트가 먼저 이동한다. 플레이어는 번갈아가면서 1개의 피스를 이동해야된다. 피스를 잡으면 그 피스를 움직여야 한다.(캐슬링은 제외) 피스를 잡으면 보드 그 피스를 움직인다.앙파상을 제외하고 상대의 피스의 칸으로 이동해서 상대의 피스를 잡는다. 킹이 움직일 수 없는 경우 게임은 끝이 난다. 그것은 체크메이트 또는 스테일메이트 중 하나다.
 
             <br>각 피스는 이동의 특징이 있다. 아래의 보드에서 점은 다른 피스가 초기상태와 목적지 사이의 칸에 없는 경우 피스가 이동 할 수 있는 칸을 표시한다.
             <br>
@@ -45,6 +53,7 @@
           </p>
         </div>
       </article>
+    
     </div>
   </div>
 </template>

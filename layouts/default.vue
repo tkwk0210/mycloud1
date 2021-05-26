@@ -9,8 +9,7 @@
 
     <footer class="footer">
       <div class="content has-text-centered">
-        2020-2021 임현진
-        
+        2021 체스에 대해서 알아보자
       </div>
     </footer>
   </div>
