@@ -30,8 +30,16 @@
                 <br>게임 중반부와 후반부는 각각 미들게임, 엔드게임이라고 불린다.
             </tbody>
         </div>
-        <div>
 
+        <div class="notification is-warning is-light-header">
+            <th>
+                오프닝 종류
+            </th>
+        </div>
+        <div class="notification is-warning is-light-body">
+            <tbody v-for="a in tablechessopening" :key="a">
+                {{a}}
+            </tbody>
         </div>
     </article>
   </div>
@@ -40,7 +48,11 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            
+            const opening = await axios.get("https://raw.githubusercontent.com/tkwk0210/mycloud1/master/assets/chessopening.json");
+
+            return {
+                tablechessopening: opening.data.opening_type
+            }
         }
     };
     

@@ -1,13 +1,9 @@
 {
     "opening_type":[
         "오픈게임(Open Game): 1.e4 e5로 시작하는 오프닝",
-
         "세미오픈게임(Semi-Open Game): 1.e4에 대해 e5가 아닌 다른 수로 대응하는 오프닝",
-
         "클로즈게임(Closed Game): 1.d4 d5로 시작하는 오프닝",
-
         "세미클로즈게임(Semi-Closed Game): 1.d4에 대해 d5가아닌 다른수로 대응하는 오프닝",
-
         "플랭크오프닝(Flank Opening): 첫번째 수에서 e4나 d4를 두지 않는 오프닝"
     ]
 }
