@@ -8,13 +8,14 @@
           <nuxt-link to="/chesstrick">행마법 자세히</nuxt-link>
         </li>
         -->
+        <li> <nuxt-link to="/chessopening">체스 오프닝</nuxt-link> </li>
       </ul>
     </nav>
     <nuxt/>
 
     <footer class="footer">
       <div class="content has-text-centered">
-        2021 체스에 대해서 알아보자
+        2021- 체스에 대해서 알아보자
       </div>
     </footer>
   </div>
