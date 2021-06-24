@@ -11,7 +11,7 @@
       </div>
     </section>
     <section class="notification is-warning">
-        <table class="table is-hoverable">
+        <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead>
                 <th>특수 행마법</th>
                 <tr>

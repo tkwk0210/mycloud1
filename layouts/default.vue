@@ -10,6 +10,7 @@
         -->
         <li> <nuxt-link to="/chessopening">체스 오프닝</nuxt-link> </li>
         <li> <nuxt-link to="/chessnotation">체스 기본법</nuxt-link> </li>
+        <li> <nuxt-link to="/chesstactics">체스 전술</nuxt-link> </li>
       </ul>
     </nav>
     <nuxt/>
