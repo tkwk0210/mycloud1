@@ -3,11 +3,7 @@
     <nav class= "breadcrumb">
       <ul>
         <li> <nuxt-link to="/"><i class="fas fa-home"></i> 홈으로 </nuxt-link> </li>
-        <!--
-        <li> 
-          <nuxt-link to="/chesstrick">행마법 자세히</nuxt-link>
-        </li>
-        -->
+        <li> <nuxt-link to="/chesspieces">기물</nuxt-link></li>
         <li> <nuxt-link to="/chessopening">체스 오프닝</nuxt-link> </li>
         <li> <nuxt-link to="/chessnotation">체스 기본법</nuxt-link> </li>
         <li> <nuxt-link to="/chesstactics">체스 전술</nuxt-link> </li>
